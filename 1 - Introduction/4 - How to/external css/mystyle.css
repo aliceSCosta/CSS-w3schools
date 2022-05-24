@@ -1,0 +1,8 @@
+body{
+    background-color: lightblue; /*definindo a cor de fundo da página inteira*/
+}
+
+h1{
+    color: navy; /* defindindo a cor da fonte do h1*/
+    margin-left: 20px; /* dando 20 pixels de maigim á esquerda do elemento */
+}

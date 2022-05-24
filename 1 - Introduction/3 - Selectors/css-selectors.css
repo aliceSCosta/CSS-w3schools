@@ -1,0 +1,55 @@
+/* SELETORES BÁSICOS */
+
+
+/* seletor de elemento pela nome da tag */
+
+p {
+    text-align: center; /* centralizando todos os elementos p*/
+    color: red; /* colocando a cor vermelha em todas as fontes que estão no elemento p */
+}
+
+
+/* seletor de elemento pelo id*/
+
+#para1 {
+
+    text-align: center; /* centralizando apenas o elemento que contém o id para1 */
+    color: blue; /* colocando a cor azul na fonte apenas onde o elemento tem o id para1 */
+}
+
+
+/* seletor de elemento pela classe */
+
+.center {
+
+    text-align: center; /* centralizando todos os elementos que possuem a classe center*/
+    color: green; /* definindo a cor da fonte para todos os elementos que possuem a classe center */
+}
+
+/* especificando que a estilização será para apenas um dos itens que tem a mesma classe */
+
+p.center2 {
+    text-align: center; /* centralizando apenas o elemento p da classe center2 */
+    color: orchid; /* aplicando uma cor para a fonte no elemento p que contém a classe center*/
+}
+
+p.large {
+    color: orange; /* definindo a cor laranja para a fonte de todos os elementos p que contêm a classe large */
+    font-size: 300%; /* definindo o tamanho da fonte como 300% para todos os elementos p que contêm a classe large */
+}
+
+
+/* seletor universal (*) seleciona todas as tags */
+
+* {
+
+    font-family: cambria; /* definindo a fonte family para todas as tags da página */
+}
+
+
+/* seletor de grupo de elementos */
+
+h1, h2, p {
+    text-align: left; /*alinhando todos os elementos h1, h2 e p à esquerda */
+    color: crimson; /* definindo a cor de todos os elementos h1, h2 e p como crimson*/
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue; /* define uma cor para o fundo inteiro do site */
+}
+
+h1{
+    color: white; /* define a cor da fonte */
+    text-align: center; /* centraliza o elemento  */
+}
+
+p{
+    font-family: verdana; /* define o tipo da fonte */
+    font-size: 20px; /* define o tamanho da fonte */
+}
